@@ -1,0 +1,93 @@
+/*basics*/
+body {
+    background: #E8E8E8;
+}
+
+#vision-board {
+    background: url(/img/background.png) no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-size: 20px;
+    height: 850px;
+    margin: 25px auto;
+    overflow: auto;
+    text-transform: uppercase;
+    width: 1200px;
+}
+
+/*block size*/
+.block {
+    box-sizing: border-box;
+    float: left;
+    width: 400px;
+}
+
+.small-block {
+    height: 210px;
+    padding: 25px 30px;
+}
+
+.large-block {
+    height: 430px;
+    padding: 70px 30px;
+}
+
+.more-padding {
+    padding-top: 35px;
+}
+
+.most-padding {
+    padding-top: 50px;
+}
+
+/*block color*/
+.light-bg {
+    background: white;
+}
+
+.dark-bg {
+    background: #3B3B3B;
+    color: white;
+}
+
+/*block text*/
+.left-align {
+    text-align: left;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.right-align {
+    text-align: right;
+}
+
+h2 {
+    background: #FFF44F;
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+p {
+    margin: 0;
+}
+
+h3 {
+    font-size: 38px;
+    line-height: 35px;
+    margin: 0 0 25px 0;
+    text-transform: none;
+}
+
+/*title block*/
+h1 {
+    font-size: 30px;
+}
+
+h1 span {
+    font-family: 'Permanent Marker';
+    font-weight: normal;
+}
